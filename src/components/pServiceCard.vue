@@ -1,8 +1,8 @@
 <template>
   <div>
     <b-card
-      title="Card Title"
-      img-src="https://picsum.photos/600/300/?image=25"
+      :title="card_title"
+      :img-src="image_src"
       img-alt="Image"
       img-top
       tag="article"
@@ -10,7 +10,7 @@
       class="mb-2"
     >
       <b-card-text>
-        Some quick example text to build on the card title and make up the bulk of the card's content.
+        <slot></slot>
       </b-card-text>
 
       <b-button href="#" variant="primary">Go somewhere</b-button>
@@ -19,6 +19,10 @@
 </template>
 <script>
   export default {
-    name: 'pservicecard'
+      name: 'pservicecard',
+      props: {
+          image_src: String,
+          card_title: String,
+      },
   }
 </script>

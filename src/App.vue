@@ -6,15 +6,22 @@
     </pjumbotron>
     <pservices id="services">
       <b-col>
-        <pservicecard></pservicecard>
+        <pservicecard image_src="img/assets/professional_coatings-4-edit.jpg" card_title="Interior Painting">
+          Painting stuff
+        </pservicecard>
       </b-col>
       <b-col>
-        <pservicecard></pservicecard>
+        <pservicecard image_src="img/assets/professional_coatings-5-edit.jpg" card_title="Finish Coating">
+          Lorem Ipsum
+        </pservicecard>
       </b-col>
       <b-col>
-        <pservicecard></pservicecard>
+
+        <pservicecard image_src="img/assets/professional_coatings-3.jpg" card_title="Magic Coating">
+          lorem ipsum
+        </pservicecard>
       </b-col>
-t    </pservices>
+    </pservices>
      <pcontact id="contact">
      </pcontact>
   </div>
