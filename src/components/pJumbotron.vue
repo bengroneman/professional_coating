@@ -4,15 +4,13 @@
       <template slot="header">Professional Coating Inc.</template>
 
       <template slot="lead">
-        This is a simple hero unit, a simple jumbotron-style component for calling extra attention to
-        featured content or information.
+      A Utah based professional coating business focused on renovations, finish work, both indoor and outdoors. 
       </template>
 
       <hr class="my-4">
 
       <p>
-        It uses utility classes for typography and spacing to space content out within the larger
-        container.
+      Looking to touch up your current home? Or are you looking to contract a group for a new house, we've got you covered. Scroll down to contact us for more information and a quote.
       </p>
     </b-jumbotron>
   </div>
